@@ -51,7 +51,7 @@ if(!password){
     const errorCode = error.code;
     const errorMessage = error.message;
    if(errorCode=='auth/email-already-in-use '){
-    toast.info('🦄 Email has already taken !', {
+    toast.info('🦄 Email has already taken!',{
       position: "bottom-right",
       autoClose: 1200,
       hideProgressBar: false,
